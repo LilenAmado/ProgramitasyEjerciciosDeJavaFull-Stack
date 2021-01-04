@@ -243,7 +243,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void num1KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_num1KeyTyped
         
-        //PARA QUE LAS LETRAS NO SE CONSUMAN
+        //PARA QUE LAS LETRAS SE CONSUMAN
         char car = evt.getKeyChar();
         
         if((car < '0' || car > '9')){
@@ -254,7 +254,7 @@ public class Principal extends javax.swing.JFrame {
 
     private void num2KeyTyped(java.awt.event.KeyEvent evt) {//GEN-FIRST:event_num2KeyTyped
        
-        //PARA QUE LAS LETRAS NO SE CONSUMAN
+        //PARA QUE LAS LETRAS SE CONSUMAN
         char car = evt.getKeyChar();
         
         if((car < '0' || car > '9')){
